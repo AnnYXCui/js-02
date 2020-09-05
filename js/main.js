@@ -23,7 +23,7 @@ console.log(tempLeader);
 // online resources:
 // W3School
 // http://1bestcsharp.blogspot.com/2017/03/javascript-populate-html-table-from-array.html
-for (var j = 1; j <= teams.length; j++) {
+for (var j = 1; j < teams.length; j++) {
    table.rows[j].cells[0].innerHTML = teams[j-1];
    table.rows[j].cells[1].innerHTML = wins[j-1];
    table.rows[j].cells[2].innerHTML = losses[j-1];
@@ -35,4 +35,4 @@ if (j == tempLeader + 1) {
      var lossesNumber = losses[j-1];
      table.rows[j].cells[2].innerHTML = "<strong>" + lossesNumber + "</strong>"
    }
-       }
+ }
