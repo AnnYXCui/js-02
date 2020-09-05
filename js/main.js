@@ -31,8 +31,8 @@ if (j == tempLeader + 1) {
      var teamsText = teams[j-1];
      table.rows[j].cells[0].innerHTML = teamsText.bold();
      var winsNumber = wins[j-1];
-     table.rows[j].cells[1].innerHTML = "<b>" + winsNumber + "</b>"
+     table.rows[j].cells[1].innerHTML = "<strong>" + winsNumber + "</strong>"
      var lossesNumber = losses[j-1];
-     table.rows[j].cells[2].innerHTML = "<b>" + lossesNumber + "</b>"
+     table.rows[j].cells[2].innerHTML = "<strong>" + lossesNumber + "</strong>"
    }
        }
